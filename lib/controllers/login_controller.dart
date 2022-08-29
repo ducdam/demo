@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-class LoginCubit {
+class LoginController {
   signUp({required String emailAddress, required String password}) async {
     try {
       final credential = await FirebaseAuth.instance.createUserWithEmailAndPassword(

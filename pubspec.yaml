@@ -42,6 +42,8 @@ dependencies:
   equatable: ^2.0.5
   get_it: ^7.2.0
   persistent_bottom_nav_bar: ^4.0.2
+  settings_ui: ^2.0.2
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
